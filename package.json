@@ -1,0 +1,22 @@
+{
+  "name": "blogr-challenge",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch styles/scss:styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snacksncode/blogr-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snacksncode/blogr-challenge/issues"
+  },
+  "homepage": "https://github.com/snacksncode/blogr-challenge#readme",
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+}

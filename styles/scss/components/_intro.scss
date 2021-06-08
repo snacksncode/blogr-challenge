@@ -1,0 +1,38 @@
+.intro {
+  min-height: 85vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom-left-radius: 100px;
+
+  color: var(--clr-neutral-100);
+  background-image: linear-gradient(to bottom, var(--clr-gradient-200), var(--clr-gradient-500));
+  .heading {
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  .subheading {
+    margin-bottom: 3rem;
+    line-height: 1.4;
+  }
+  .heading,
+  .subheading {
+    max-width: 85%;
+  }
+
+  .watermark {
+    position: absolute;
+    width: 350%;
+    left: -20rem;
+    top: -17rem;
+    height: auto;
+    z-index: -1;
+  }
+}

@@ -1,50 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Blogr]</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="stylesheet" href="styles/css/main.css" />
+  </head>
+  <body>
+    <div class="navbar container">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Blogr" />
+        <nav>
+          <div class="hamburger">
+            <img src="./images/icon-hamburger.svg" alt="hamburger-menu" />
+          </div>
+          <div class="menu">
+            <ul>
+              <li class="menu__link">
+                <div class="menu__text">Product</div>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown__link">Overview</li>
+                    <li class="dropdown__link">Pricing</li>
+                    <li class="dropdown__link">Marketplace</li>
+                    <li class="dropdown__link">Features</li>
+                    <li class="dropdown__link">Integrations</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__link">
+                <div class="menu__text">Company</div>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown__link">About</li>
+                    <li class="dropdown__link">Team</li>
+                    <li class="dropdown__link">Blog</li>
+                    <li class="dropdown__link">Careers</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu__link">
+                <div class="menu__text">Connect</div>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown__link">Contact</li>
+                    <li class="dropdown__link">Newsletter</li>
+                    <li class="dropdown__link">LinkedIn</li>
+                  </ul>
+                </div>
+              </li>
+              <div class="menu__separator"></div>
+              <div class="menu__buttons">
+                <div class="btn btn--text-only">Login</div>
+                <div class="btn btn--gradient">Sign Up</div>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <section class="intro container">
+      <div class="watermark">
+        <img src="images/bg-pattern-intro.svg" alt="circles" />
+      </div>
+      <h1 class="heading heading--intro">A modern publishing platform</h1>
+      <p class="subheading">Grow your audience and build your online brand</p>
+      <div class="buttons-wrapper">
+        <div class="btn btn--primary">Start for Free</div>
+        <div class="btn btn--secondary">Learn More</div>
+      </div>
+    </section>
+    <!--
   Designed for the future
 
   Introducing an extensible editor
@@ -89,11 +119,11 @@
   
   Contact
   Newsletter
-  LinkedIn
+  LinkedIn -->
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>

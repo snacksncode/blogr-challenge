@@ -1,0 +1,17 @@
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.85em 1.5em;
+  border-radius: 999px;
+  text-align: center;
+  cursor: pointer;
+  &--secondary {
+    color: var(--clr-neutral-100);
+    border: 1px solid var(--clr-neutral-100);
+  }
+  &--primary {
+    color: var(--clr-primary-400);
+    background-color: var(--clr-neutral-100);
+    border: 1px solid var(--clr-neutral-100);
+  }
+}

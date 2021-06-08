@@ -1,0 +1,21 @@
+body {
+  // configuration variables
+  --container-cap-width: 1200px;
+  --root-font-size: 16px;
+
+  // colors
+  --clr-primary-400: hsl(356, 100%, 66%);
+  --clr-primary-300: hsl(355, 100%, 74%);
+  --clr-secondary-500: hsl(208, 49%, 24%);
+
+  --clr-gradient-200: hsl(13, 100%, 72%);
+  --clr-gradient-500: hsl(353, 100%, 62%);
+
+  --clr-dark-gradient-700: hsl(237, 17%, 21%);
+  --clr-dark-gradient-600: hsl(237, 23%, 32%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(240, 2%, 79%);
+  --clr-neutral-600: hsl(207, 13%, 34%);
+  --clr-neutral-800: hsl(240, 10%, 16%);
+}
