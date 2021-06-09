@@ -9,8 +9,11 @@
 @use "./vendor/normalize";
 
 // components
-@use "./components/navbar";
-@use "./components/intro";
 @use "./components/container";
 @use "./components/button";
-@use "./components/buttons-wrapper";
+
+// layout components
+@use "./layout/intro";
+@use "./layout/navbar";
+@use "./layout/features";
+@use "./layout/infrastructure";

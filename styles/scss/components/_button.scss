@@ -4,6 +4,7 @@
   padding: 0.85em 1.5em;
   border-radius: 999px;
   text-align: center;
+  display: inline-block;
   cursor: pointer;
   &--secondary {
     color: var(--clr-neutral-100);
@@ -13,5 +14,10 @@
     color: var(--clr-primary-400);
     background-color: var(--clr-neutral-100);
     border: 1px solid var(--clr-neutral-100);
+  }
+  &--gradient {
+    color: var(--clr-neutral-100);
+    background-image: linear-gradient(to right, var(--clr-gradient-200), var(--clr-gradient-500));
+    padding: 0.85em 2em;
   }
 }

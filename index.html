@@ -14,53 +14,60 @@
     <div class="navbar container">
       <div class="logo">
         <img src="./images/logo.svg" alt="Blogr" />
-        <nav>
-          <div class="hamburger">
-            <img src="./images/icon-hamburger.svg" alt="hamburger-menu" />
+      </div>
+      <div class="hamburger">
+        <img src="./images/icon-hamburger.svg" alt="hamburger-menu" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu__link">
+            <div class="menu__text">
+              Product
+              <img src="./images/icon-arrow-dark.svg" alt="v" />
+            </div>
+            <div class="dropdown">
+              <ul>
+                <li class="dropdown__link">Overview</li>
+                <li class="dropdown__link">Pricing</li>
+                <li class="dropdown__link">Marketplace</li>
+                <li class="dropdown__link">Features</li>
+                <li class="dropdown__link">Integrations</li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__link">
+            <div class="menu__text">
+              Company
+              <img src="./images/icon-arrow-dark.svg" alt="v" />
+            </div>
+            <div class="dropdown">
+              <ul>
+                <li class="dropdown__link">About</li>
+                <li class="dropdown__link">Team</li>
+                <li class="dropdown__link">Blog</li>
+                <li class="dropdown__link">Careers</li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__link menu__link--open">
+            <div class="menu__text">
+              Connect
+              <img src="./images/icon-arrow-dark.svg" alt="v" />
+            </div>
+            <div class="dropdown dropdown--open">
+              <ul>
+                <li class="dropdown__link">Contact</li>
+                <li class="dropdown__link">Newsletter</li>
+                <li class="dropdown__link">LinkedIn</li>
+              </ul>
+            </div>
+          </li>
+          <div class="menu__separator"></div>
+          <div class="menu__buttons">
+            <div class="btn btn--text-only">Login</div>
+            <div class="btn btn--gradient">Sign Up</div>
           </div>
-          <div class="menu">
-            <ul>
-              <li class="menu__link">
-                <div class="menu__text">Product</div>
-                <div class="dropdown">
-                  <ul>
-                    <li class="dropdown__link">Overview</li>
-                    <li class="dropdown__link">Pricing</li>
-                    <li class="dropdown__link">Marketplace</li>
-                    <li class="dropdown__link">Features</li>
-                    <li class="dropdown__link">Integrations</li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu__link">
-                <div class="menu__text">Company</div>
-                <div class="dropdown">
-                  <ul>
-                    <li class="dropdown__link">About</li>
-                    <li class="dropdown__link">Team</li>
-                    <li class="dropdown__link">Blog</li>
-                    <li class="dropdown__link">Careers</li>
-                  </ul>
-                </div>
-              </li>
-              <li class="menu__link">
-                <div class="menu__text">Connect</div>
-                <div class="dropdown">
-                  <ul>
-                    <li class="dropdown__link">Contact</li>
-                    <li class="dropdown__link">Newsletter</li>
-                    <li class="dropdown__link">LinkedIn</li>
-                  </ul>
-                </div>
-              </li>
-              <div class="menu__separator"></div>
-              <div class="menu__buttons">
-                <div class="btn btn--text-only">Login</div>
-                <div class="btn btn--gradient">Sign Up</div>
-              </div>
-            </ul>
-          </div>
-        </nav>
+        </ul>
       </div>
     </div>
     <section class="intro container">
@@ -74,23 +81,33 @@
         <div class="btn btn--secondary">Learn More</div>
       </div>
     </section>
-    <!--
-  Designed for the future
 
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
+    <section class="features container">
+      <h2 class="heading heading--dark">Designed for the future</h1>
+      <img src="./images/illustration-editor-mobile.svg" alt="Editor" />
+      <h2 class="heading heading--dark">Introducing an extensible editor</h2>
+      <p class="paragraph">
+        Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The
+        editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and
+        Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a
+        blog.
+      </p>
+      <h2 class="heading heading--dark">Robust content management</h1>
+      <p class="paragraph">
+        Flexible content management enables users to easily move through posts. Increase the usability of your blog by
+        adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+      </p>
+    </section>
 
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+    <section class="infrastructure container">
+      <h1 class="heading heading--dark">State of the Art Infrastructure</h1>
+      <img src="./images/illustration-editor-mobile.svg" alt="Editor" />
+      <p class="paragraph">
+        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
   This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
+      </p>
+    </section>
+    <!--
   Free, open, simple
   Blogr is a free and open source application backed by a large community of helpful developers. It supports 
   features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 

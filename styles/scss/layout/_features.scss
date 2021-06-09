@@ -1,0 +1,19 @@
+.features {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .heading {
+    margin: 2rem 0;
+    letter-spacing: 0.5px;
+    &:not(:first-of-type) {
+      margin-bottom: 0;
+    }
+  }
+  .paragraph {
+    font-weight: 300;
+    font-family: "Overpass";
+    letter-spacing: 0.5px;
+    color: var(--clr-neutral-600);
+  }
+}

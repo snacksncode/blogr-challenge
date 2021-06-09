@@ -9,6 +9,9 @@ body {
   &--intro {
     text-align: center;
   }
+  &--dark {
+    color: var(--clr-secondary-500);
+  }
 }
 
 .subheading {

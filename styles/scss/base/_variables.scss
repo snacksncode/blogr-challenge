@@ -2,6 +2,8 @@ body {
   // configuration variables
   --container-cap-width: 1200px;
   --root-font-size: 16px;
+  --border-radius: 6px;
+  --box-shadow-md: 0 0.5rem 2rem hsla(240, 10%, 16%, 35%);
 
   // colors
   --clr-primary-400: hsl(356, 100%, 66%);
@@ -15,6 +17,7 @@ body {
   --clr-dark-gradient-600: hsl(237, 23%, 32%);
 
   --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-150: hsl(0, 0%, 90%);
   --clr-neutral-200: hsl(240, 2%, 79%);
   --clr-neutral-600: hsl(207, 13%, 34%);
   --clr-neutral-800: hsl(240, 10%, 16%);

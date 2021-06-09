@@ -27,6 +27,12 @@
     max-width: 85%;
   }
 
+  .buttons-wrapper {
+    * + * {
+      margin-left: 1rem;
+    }
+  }
+
   .watermark {
     position: absolute;
     width: 350%;
